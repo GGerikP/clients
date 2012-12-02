@@ -1,0 +1,11 @@
+/*
+ -- File: home.css
+  -- Author: Gerik Peterson
+*/
+
+@import url("/static/css/default.css");
+@import url("/static/css/page.css");
+@import url("/static/css/header.css");
+@import url("/static/css/content.css");
+@import url("/static/css/footer.css");
+
