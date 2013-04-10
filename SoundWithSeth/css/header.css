@@ -1,0 +1,149 @@
+/*
+  -- File: header.css
+  -- Author: Gerik Peterson
+*/
+
+#page_header {
+	position:relative;
+	width  : 930px;
+	height : 175px;
+	margin : 0px auto 0px;
+	float  : left;
+	clear  : both;
+/*
+	padding-bottom: 20px;
+	background : url("/static/img/header_banner_1.jpg") repeat-x 0 0;
+	background : #135 url("/static/img/header_banner_1.jpg") repeat-x 0 0;
+	border : 1px green solid;
+	height : 100px;
+*/
+}
+
+#search_bar {
+	position      : absolute;
+	left          : 285px;
+	margin        : 10px;
+/*
+	float         : right;
+*/
+}
+
+#header_profile {
+	float      : right;
+/*
+	padding    : 5px;
+	height     : 150px;
+	width      : 75px;
+	background : url("/static/img/profile_5.png") no-repeat 0 0;
+	position: relative;
+	left: 10px;
+	top : 10px;
+*/
+}
+
+#header_profile img {
+	position          : absolute;
+	height            : 250px;
+	left              : 540px;
+	z-index           : 0;
+/*
+	margin-right	  : -5px;
+	width   : 75px;
+*/
+}
+
+#page_header #site_title {
+	clear        : both;
+	font-size    : 75px;
+	font-family  : "Times New Roman", Times, serif;
+/*
+*/
+}
+
+#header_logo {
+	clear         : both;
+	float         : left;
+	font-size     : 32px;
+	margin-top   : 35px;
+/*
+    padding-top   : 15px;
+	height        : 85px;
+*/
+}
+
+#header_tagline {
+	clear         : both;
+	float         : left;
+	border        : grey 4px;
+	border-style  : ridge;
+	width         : 450px;
+	font-weight   : bold;
+	font-size     : 20px;
+	margin        : 0px 0px 5px 40px;
+}
+
+#nav {
+	position      : absolute;
+	top           : 170px;
+	left          : 30px;
+	width         : 900px;
+	z-index       : 2;
+	background    : #136 url("/static/img/bg-nav.gif") repeat-x 0 0;
+	border-bottom : 2px solid #135;
+	list-style    : none;
+/*
+	float         : right;
+	margin-left   : 20px;
+	width         : 820px;
+	display       : table;
+	bottom        : 0px;
+	border        : 1px magenta solid;
+	height        : 10px;
+	position      : relative;
+*/
+}
+
+#nav li {
+	background : none;
+	display    : inline;
+/*
+	width      : 100px;
+	float      : left;
+	margin     : auto;
+*/
+}
+
+#nav li a, #nav li strong {
+	float          : left;
+	width          : auto;
+	padding        : 5px 9px 3px;
+	border-left    : 1px solid #579;
+	border-right   : 1px solid #135;
+	text-transform : uppercase;
+	text-decoration: none;
+	font-size      : 11px;
+	color          : #def;
+/*
+*/
+}
+
+#nav li strong {
+	background : #246;
+	color      : #fff;
+}
+
+#nav li a strong {
+	border-width : 0px;
+}
+
+#nav li a:hover {
+	background        : #def;
+	border-left-color : #def;
+	color             : #246;
+/*
+	background        : #def;
+	border-left-color : #def;
+	color             : #cf0;
+*/
+}
+

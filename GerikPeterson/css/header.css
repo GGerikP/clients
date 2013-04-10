@@ -1,0 +1,134 @@
+/*
+  -- File: header.css
+  -- Author: Gerik Peterson
+*/
+
+#page_header {
+	margin : 0 auto;
+	float  : left;
+	width  : 100%;
+/*
+	width  : auto;
+	width  : 940px;
+	max-width : 1098px;
+	min-width : 500px;
+	border : 1px green solid;
+	height : 100px;
+*/
+}
+
+#header_logo {
+	display       : none;
+	float         : left;
+	height        : 50px;
+}
+
+#loginform {
+	float         : right;
+/*
+	border        : 1px green solid;
+*/
+}
+
+#login_username {
+	clear         : both;
+	float         : right;
+/*
+	float         : left;
+*/
+}
+
+#login_username  input{
+	width         : 150px;
+}
+
+#login_password  {
+	clear         : both;
+	float         : right;
+/*
+	width         : 250px;
+	float         : left;
+*/
+}
+
+#login_password  input{
+	width         : 150px;
+}
+
+
+#login_button {
+	float         : right;
+	clear         : both;
+}
+
+#login_button input {
+	padding       : 0px 25px;
+}
+
+#logoutform {
+    float         : right;
+}
+
+#logout_button {
+    padding       : 10px 30px;
+	margin        : 3px;
+	font-size     : 15px;
+}
+
+#search_bar {
+	float         : left;
+	margin        : 10px;
+}
+
+#nav {
+	background    : #135 url("/static/img/bg-nav.gif") repeat-x 0 0;
+	float         : right;
+	border-bottom : 2px solid #135;
+	list-style    : none;
+	width         : 100%;
+/*
+	width         : 820px;
+	display       : table;
+	bottom        : 0px;
+	border        : 1px magenta solid;
+	height        : 10px;
+	position      : relative;
+*/
+}
+
+#nav li {
+	background : none;
+	display    : inline;
+/*
+	width      : 100px;
+	float      : left;
+	margin     : auto;
+*/
+}
+
+#nav li a, #nav li strong  a{
+	float          : left;
+	width          : auto;
+	padding        : 5px 9px 3px;
+	border-left    : 1px solid #579;
+	border-right   : 1px solid #135;
+	color          : #def;
+	text-transform : uppercase;
+	text-decoration: none;
+}
+
+#nav li strong {
+	background : #246;
+	color      : #fff;
+}
+
+#nav li a strong {
+	border-width : 0px;
+}
+
+#nav li a:hover {
+	background        : #246;
+	border-left-color : #246;
+	color             : #cf0;
+}
+

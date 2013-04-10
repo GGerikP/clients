@@ -1,0 +1,55 @@
+/*
+  -- File: default.css
+  -- Author: Gerik Peterson
+*/
+
+* {
+	margin  : 0;
+	padding : 0;
+	color   : #000;
+	font-family: verdana,helvetica,arial,sans-serif;
+}
+
+html, body {
+	background : white;
+	padding    : 10px;
+	font       : small veranda,Sans-Serif;
+	color      : black;
+}
+
+div {
+/*
+	float   : left;
+	border  : 1px black solid;
+	display : box;
+*/
+}
+
+a {color  : #36a;}
+a img {border-width : 0px;}
+
+p {
+	font-size : 12px;
+	line-height: 140%;
+}
+
+ul, li {
+	list-style : none;
+}
+
+.clear {
+	clear : both;
+}
+
+.right {
+	clear : right;
+}
+
+.left {
+	clear : left;
+}
+
+@import url("/GerikPeterson/static/css/page.css");
+@import url("/GerikPeterson/static/css/header.css");
+@import url("/GerikPeterson/static/css/content.css");
+@import url("/GerikPeterson/static/css/footer.css");

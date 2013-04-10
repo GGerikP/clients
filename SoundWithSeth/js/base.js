@@ -19,3 +19,8 @@ function setHomePage() {
 			buildPlayground();
 		});
 }
+
+function siteSearch(curobj){
+	curobj.q.value="site: " + window.location.host + " " +curobj.searchtext.value
+}
+

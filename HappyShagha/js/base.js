@@ -4,18 +4,15 @@
 *********************************/
 
 function initMyPage() {
-
-	console.log("TODO: Implement initMyPage()");
-
-//	setHomePage();
-
+	setHomePage();
 }
 
 function setHomePage() {
 
-	$("body").load(
+/*	$("body").load(
 		"/static/html/playground/playground_index.html",
 		function doAfter() {
-			buildPlayground();
+			buildHome();
 		});
+*/
 }

@@ -1,0 +1,45 @@
+/*
+ -- File: base.css
+  -- Author: Gerik Peterson
+*/
+
+html, body, a{
+   margin:0;
+   padding:0;
+   height:100%;
+   font-family  : "Times New Roman", Times, serif;
+}
+
+.page_container {
+	width  : 100%;
+//	border : 20px blue solid;
+}
+
+.page_obj {
+	position: relative;
+	width: 100%;
+	max-width: 900px;
+//	margin: 0 auto;
+	border-width : 1px 1px 0px 1px;
+	border-color : black;
+	border-style : solid;
+}
+
+/* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
+
+.right {
+   float : right;
+   text-align : right;
+}
+  
+.left {
+   float : left;
+   text-align : left;
+}

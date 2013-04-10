@@ -1,0 +1,86 @@
+/*
+  -- File: header.css
+  -- Author: Gerik Peterson
+*/
+
+#page_header {
+	width  : 960px;
+	margin : 0 auto;
+	float  : left;
+/*
+	border : 1px green solid;
+	height : 100px;
+*/
+}
+
+#header_logo {
+	float  : left;
+	width  : 480px;
+	text-align : center;
+}
+
+#header_logo h1 {
+	margin    : 0 auto;
+	font-size : 400%;
+}
+
+#header_nav {
+	float     : right;
+	width     : 480px;
+}
+
+#search_bar {
+	float         : right;
+	margin        : 10px;
+}
+
+#nav {
+	background    : #135 url("/static/img/bg-nav.gif") repeat-x 0 0;
+	float         : right;
+	border-bottom : 2px solid #135;
+	list-style    : none;
+/*
+	display       : table;
+	bottom        : 0px;
+	border        : 1px magenta solid;
+	height        : 10px;
+	position      : relative;
+*/
+}
+
+#nav li {
+	background : none;
+	display    : inline;
+/*
+	width      : 100px;
+	float      : left;
+	margin     : auto;
+*/
+}
+
+#nav li a, #nav li strong {
+	float          : left;
+	width          : auto;
+	padding        : 5px 9px 3px;
+	border-left    : 1px solid #579;
+	border-right   : 1px solid #135;
+	color          : #def;
+	text-transform : uppercase;
+	text-decoration: none;
+}
+
+#nav li strong {
+	background : #246;
+	color      : #fff;
+}
+
+#nav li a strong {
+	border-width : 0px;
+}
+
+#nav li a:hover {
+	background        : #246;
+	border-left-color : #246;
+	color             : #cf0;
+}
+

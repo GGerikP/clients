@@ -1,0 +1,158 @@
+/*
+  -- File: content.css
+  -- Author: Gerik Peterson
+*/
+
+/*
+	The expected width is 960 for the page body
+	So, sub-divided:
+		-- padding       =  20px (10 on both sides
+		-- sub-nav       = 210px
+		-- content-group = 700px
+		------------------------
+		   total         = 930px
+		   
+		   left for borders = 10px
+*/
+
+#page_body {
+	width      : 960px;
+	background : url("/static/img/bg-content.gif") repeat-y 0px 0px;
+	float      : left;
+	margin     : 10px;
+/*
+	padding    : 10px;
+	width      : 960px;
+	height : 500px;
+	border  : 1px red solid;
+*/
+}
+
+#content-group {
+	width   : 750px;
+	float   : right;
+}
+
+#content-main {
+	min-width   : 600px;
+	max-width   : 600px;
+	float       : left;
+	border      : 1px blue solid;
+/*
+	height  : 100%;
+*/
+}
+
+#content-extra {
+	width  : 140px;
+	float  : right;
+	border : 1px green solid;
+/*
+	--Adding the height here causes it to pick up the height of the screen
+	    and kills the float functionality.
+	height : 100%;
+*/
+}
+
+#content-sub-nav {
+	width  : 160px;
+	float  : left;
+/*
+	padding: 5px;
+	border-bottom : 2px solid #135;
+	border : 1px magenta solid;
+	height : 100%;
+*/
+}
+
+#sub-nav-menu {
+	float      : left;
+	color      : black;
+/*
+	width      : 100%;
+	border     : 1px solid red;
+*/
+}
+
+#sub-nav-menu ul * {
+	padding-left   : 5px;
+}
+
+#sub-nav-menu li {
+	float          : left;
+	clear          : both;
+	background     : none;
+	border-left    : 1px solid #579;
+	color          : black;
+/*
+	border-right   : 1px solid #135;
+	width          : 100%;
+	border         : 1px solid blue;
+	display        : inline;
+	width          : 100px;
+	margin         : auto;
+*/
+}
+
+#sub-nav-menu li img, #sub-nav-menu li a, #sub-nav-menu li strong {
+	float          : left;
+	text-decoration: none;
+	color          : black;
+/*
+	text-transform : uppercase;
+	color          : #def;
+	padding        : 5px 9px 3px;
+	width          : auto;
+*/
+}
+
+#sub-nav-menu li strong {
+	background : #246;
+	color      : #fff;
+}
+
+#sub-nav-menu li a strong {
+	border-width : 0px;
+}
+
+#sub-nav-menu li a:hover {
+	background        : #246;
+	border-left-color : #246;
+	color             : #cf0;
+}
+
+#content-blurb {
+	width   : 600px;
+	float   : left;
+}
+
+#product_grid {
+	float   : left;
+/*
+	width   : 600px;
+*/
+}
+
+.productBox {
+	height : 125px;
+	width  : 24.5%;
+	float  : left;
+	display: inline;
+	border : 1px green solid;
+}
+
+.productBox h3 {
+	font-weight : bold;
+}
+
+.block4_items {
+	height : 450px;
+	width  : 135px;
+	float  : left;
+	border : 1px green solid;
+/*
+	display: block;
+	clear  : right;
+*/
+}
+
