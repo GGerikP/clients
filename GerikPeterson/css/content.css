@@ -39,10 +39,14 @@
 	1058 = 848 + 210
 */
 #content-group {
-	width     : 78%;
 	height    : 100%;
-	float     : right;
+	max-width : 78%;
+        float     : left;
 /*
+        position  : absolute;
+        left      : 215px;
+	float     : right;
+        clear     : left;
 	max-width : 848px;
 	width   : 700px;
 	width   : 100%;
@@ -51,6 +55,7 @@
 
 #content-sub1 {
 	width         : 20%;
+	min-width     : 210px;
 	height        : 100%;
 	float         : left;
 	padding       : 0px 10px 0px 0px;
@@ -66,7 +71,7 @@
 */
 #content-main {
 	/* Total Width = 708px = (width + padding + margin)*/
-	width       : 80%;
+	max-width   : 80%;
 	padding     : 0px 10px 0px 0px;
 	float       : left;
 /*
@@ -77,9 +82,23 @@
 */
 }
 
+#welcome_message {
+	float : left;
+}
+
+
+#site_architecture {
+	float : left;
+}
+
+#aboutme_external_logos a img {
+	height  : 50px;
+/*
+*/}
+
 #content-extra {
-	width  : 18%;
-	float  : right;
+	max-width : 18%;
+	float     : right;
 /*
 	width  : 140px;
 	border : 1px green solid;
@@ -90,11 +109,11 @@
 }
 
 #content-sub1 * {
-	width         : 210px;
+	width      : 210px;
 }
 
 #content-sub1 ul{
-	margin        : 0px 0px 10px 0px;
+	margin     : 0px 0px 10px 0px;
 }
 
 #content-blurb {
@@ -104,7 +123,7 @@
 */
 }
 
-#content-blurb img {
+.blurb_stuff img {
 	float      : left;
 	text-align : left;
 	width      : 150px;
