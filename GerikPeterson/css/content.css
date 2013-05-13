@@ -33,6 +33,12 @@
 */
 }
 
+#page_body>div {
+/*
+	border  : 1px black solid;
+*/
+}
+
 /*
 	The page body - margin = content-sub1 + content-group
 	1078 - 20 = 888 + 210
@@ -40,11 +46,12 @@
 */
 #content-group {
 	height    : 100%;
-	max-width : 78%;
-        float     : left;
+	max-width : 79%;
 /*
+	border  : 1px black solid;
+        float     : left;
         position  : absolute;
-        left      : 215px;
+        left      : 325px;
 	float     : right;
         clear     : left;
 	max-width : 848px;
@@ -53,53 +60,11 @@
 */
 }
 
-#content-sub1 {
-	width         : 20%;
-	min-width     : 210px;
-	height        : 100%;
-	float         : left;
-	padding       : 0px 10px 0px 0px;
-/*
-	max-width     : 210px;
-	border  : 1px red solid;
-*/
-}
-
-/*
-	The content-group = content-main + content-extra
-	848 = 708 + 140
-*/
-#content-main {
-	/* Total Width = 708px = (width + padding + margin)*/
-	max-width   : 80%;
-	padding     : 0px 10px 0px 0px;
-	float       : left;
-/*
-	max-width   : 698px;
-	border  : 1px blue solid;
-	width   : 100%;
-	height  : 100%;
-*/
-}
-
-#welcome_message {
-	float : left;
-}
-
-
-#site_architecture {
-	float : left;
-}
-
-#aboutme_external_logos a img {
-	height  : 50px;
-/*
-*/}
-
 #content-extra {
-	max-width : 18%;
-	float     : right;
+	max-width : 13%;
+	float     : left;
 /*
+        min-width : 135px;
 	width  : 140px;
 	border : 1px green solid;
 	--Adding the height here causes it to pick up the height of the screen
@@ -108,43 +73,11 @@
 */
 }
 
-#content-sub1 * {
-	width      : 210px;
-}
-
-#content-sub1 ul{
-	margin     : 0px 0px 10px 0px;
-}
-
-#content-blurb {
-	float   : left;
-/*
-	width   : 550px;
-*/
-}
-
-.blurb_stuff img {
-	float      : left;
-	text-align : left;
-	width      : 150px;
-}
-
-#site_creation_content ul {
-	padding     : 0px 5px 10px 5px;
-}
-
-#product_grid {
-	float   : left;
-/*
-	width   : 600px;
-*/
-}
-
 .block4_items {
-	height : 450px;
 	width  : 135px;
 	float  : left;
 /*
+	height : 450px;
 	border : 1px green solid;
 	background-color: green;
 	display: block;

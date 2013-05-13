@@ -1,0 +1,32 @@
+/*
+  -- File: content-sub1.css
+  -- Author: Gerik Peterson
+*/
+
+#content-sub1 {
+	width         : 20%;
+	min-width     : 210px;
+	height        : 100%;
+	float         : left;
+	margin        : 0px 10px 0px 0px;
+/*
+	padding       : 0px 10px 0px 0px;
+	max-width     : 210px;
+	border  : 1px red solid;
+*/
+}
+
+#content-sub1>img {
+	width      : 210px;
+/*
+*/
+}
+
+#dev_quick_links ul li a img {
+    width          : 100px;
+}
+
+#content-sub1 ul{
+	margin     : 0px 0px 10px 0px;
+}
+
