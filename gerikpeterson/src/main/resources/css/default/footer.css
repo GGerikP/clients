@@ -1,0 +1,17 @@
+
+
+
+#page_footer {
+	width  : 100%;
+	border : 1px blue solid;
+	height : 50px;
+	float  : left;
+	text-align: center;
+/*
+	width  : 940px;
+*/
+}
+
+#page_footer  p{
+	margin : auto;
+}

@@ -1,0 +1,18 @@
+/*
+ -- File: gallery.css
+  -- Author: Gerik Peterson
+*/
+
+/******************************************************
+** Always Import the default.css                     */
+@import url("/GerikPeterson/static/css/default/default.css");
+/*  Always Import the default.css
+******************************************************/
+
+
+/******************************************************
+**  Page specific css files                          */
+@import url("/GerikPeterson/static/css/home/content-main.css");
+@import url("/GerikPeterson/static/css/home/content-sub1.css");
+
+

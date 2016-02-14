@@ -1,0 +1,55 @@
+/* *************************************
+ * 
+ * File: style.css
+ * Desc: Base css file for GerikPeterson.com
+ * Author: Gerik Peterson
+ * 
+ * 
+ * ************************************/
+
+body {
+//	background-color: rgb(195,195,195);
+	background-image:
+	  radial-gradient(
+	  	circle,
+	  	rgb(195,195,195) 50%,
+	  	white 95%
+	  );
+}
+#container {
+	width:900px;
+	margin:0 auto;
+}
+#header {
+	text-align: left;
+}
+#header p {
+	font-size:1em;
+}
+#footer {
+	text-align: center;
+}
+#title {
+	color: black;
+	font-size:3em;
+	font-decoration: bold;
+}
+#center-content {
+	width: 900px;
+	min-height: 600px;
+	background-image:url("/images/profile_full_800x600_opaque.png");
+	background-repeat: no-repeat;
+}
+.content {
+	float: right;
+	width:350px;
+	min-height: 600px;
+	text-align: left;
+	background-color: white;
+	opacity:.70;
+	padding: 0px 10px 0px 10px;
+}
+
+.hidden {
+	display: none;
+}

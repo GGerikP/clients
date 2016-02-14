@@ -1,0 +1,10 @@
+/*
+  -- File: default.css
+  -- Author: Gerik Peterson
+*/
+
+@import url("/GerikPeterson/static/css/default/base.css");
+@import url("/GerikPeterson/static/css/default/content.css");
+@import url("/GerikPeterson/static/css/default/footer.css");
+@import url("/GerikPeterson/static/css/default/header.css");
+@import url("/GerikPeterson/static/css/default/page.css");
