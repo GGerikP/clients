@@ -1,0 +1,73 @@
+img, video, .wp-caption {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
+	height: auto !important;
+}
+audio {
+	max-width: 100%;
+}
+.builder-container-outer-wrapper {
+	max-width: 960px;
+	width: 100%;
+}
+#ie6 .builder-container-outer-wrapper,
+#ie7 .builder-container-outer-wrapper,
+#ie8 .builder-container-outer-wrapper {
+	width: 960px;
+}
+@media screen and (max-width: 960px) {
+	.builder-container {
+		margin: 0 1.5em;
+	}
+}
+@media screen and (max-width: 500px) {
+	.builder-container {
+		margin: 0 .75em;
+	}
+}
+#builder-module-545e1341e5c26 .builder-module-column-1-outer-wrapper {
+	width: 100%;
+}
+#builder-module-545e17d1d74e8 .builder-module-column-1-outer-wrapper {
+	width: 100%;
+}
+#builder-module-545e1341e5c26 .builder-module-column-1-outer-wrapper {
+	float: left !important;
+	width: 18.75%;
+	margin-left: 0%;
+	margin-right: -100%;
+}
+#builder-module-545e1341e5c26 .builder-module-column-2-outer-wrapper {
+	float: left !important;
+	width: 62.5%;
+	margin-left: 18.75%;
+	margin-right: -100%;
+}
+#builder-module-545e1341e5c26 .builder-module-column-3-outer-wrapper {
+	float: left !important;
+	width: 18.75%;
+	margin-left: 81.25%;
+	margin-right: -100%;
+}
+@media screen and (max-width: 960px) {
+	#builder-module-545e1341e5c26 .builder-module-column-1-outer-wrapper,
+	#builder-module-545e1341e5c26 .builder-module-column-2-outer-wrapper,
+	#builder-module-545e1341e5c26 .builder-module-column-3-outer-wrapper {
+		float: none !important;
+		width: auto;
+		margin: 0;
+	}
+	#builder-module-545e1341e5c26 .builder-module-column-1-outer-wrapper .builder-module-block,
+	#builder-module-545e1341e5c26 .builder-module-column-2-outer-wrapper .builder-module-block,
+	#builder-module-545e1341e5c26 .builder-module-column-3-outer-wrapper .builder-module-block,
+	#builder-module-545e1341e5c26 .builder-module-column-1-outer-wrapper .widget,
+	#builder-module-545e1341e5c26 .builder-module-column-2-outer-wrapper .widget,
+	#builder-module-545e1341e5c26 .builder-module-column-3-outer-wrapper .widget {
+		margin: 0;
+	}
+}
+#builder-module-545e1341e5c26 .builder-module-column-1-outer-wrapper {
+	width: 100%;
+}

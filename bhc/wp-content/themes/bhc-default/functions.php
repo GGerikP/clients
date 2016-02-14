@@ -1,0 +1,1 @@
+<?php include (TEMPLATEPATH . '/functions_kubrick.php'); ?>
