@@ -1,0 +1,11 @@
+####################################
+#
+# File: bashrc
+# Desc: bashrc for the gerikpeterson
+#        application
+# Auth: Gerik Peterson
+#
+####################################
+
+echo "Sourcing the base bashrc file."
+

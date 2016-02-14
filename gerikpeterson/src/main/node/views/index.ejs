@@ -5,11 +5,12 @@
 <!-- Style Sheets -->
 <link rel="stylesheet" type="text/css" href="<%= configs.path.css %>style.css">
 
-<!--script type="text/javascript" src="%= JS_PATH %/jquery-2.1.4.min.js"></script-->
+<!-- JS Files -->
+<!-- vendor -->
 <script type="text/javascript" src="<%= configs.path.js %>jquery-1.12.0.js"></script>
 <script type="text/javascript" src="<%= configs.path.js %>jquery-ui-1.11.4.js"></script>
 
-<!-- JS Files -->
+<!-- App -->
 <script type="text/javascript" src="<%= configs.path.js %>index.js"></script>
 
 </head>
@@ -18,30 +19,7 @@
 
 <% include header %>
 
-<div id="center-content">
-
-	<div class="content" id="content-profile">
-		<h1>About Me</h1>
-		<p>I am an experienced software development manager in high throughput IT solutions.  I have over 7 years experience in the industry with a particular focus on people management.</p>
-		<h2 id="about-site"><a href="#">About This Site</a></h2>
-		<p>This site has been built purely to provide a presence on the web.</p>
-		<h2 id="values"><a href="#">Values</a></h2>
-		<p>A little take on my management values.</p>
-		<h2 id="experience"><a href="#">Experience</a></h2>
-		<p>A bit of an explanation of who I am</p>
-		<h2 id="interests"><a href="#">Further Interests...</a></h2>
-		<p>My alternate personality as a musician</p>
-	</div><!--content-profile-->
-
-	<% include about %>
-
-	<% include values %>
-
-	<% include experience %>
-
-	<% include interests %>
-
-</div><!--center-content-->
+<% include landing/landing %>
 
 <% include footer %>
 

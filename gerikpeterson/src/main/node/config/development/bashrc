@@ -1,0 +1,17 @@
+###################################
+#
+# File: .bashrc
+# Desc: Bash file for the ggp-dv4
+#        gerikpeterson node.js app
+# Auth: Gerik Peterson
+#
+###################################
+
+echo "Sourcing the development bashrc file."
+
+if [ -f ./config/bashrc ]; then
+    . ./config/bashrc
+fi
+
+export NODE_ENV=development
+
