@@ -1,0 +1,63 @@
+/* ***********************************************************************
+* File: style.css
+* Auth: Gerik Peterson
+* Desc: Core css file for the trevedential website
+*
+* ***********************************************************************/
+
+body {
+  padding: 0px 10px 10px 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#header-title {
+	font : 50px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#statement {
+	padding:5px;
+	font: 40px  "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.container {
+	background-color : grey;
+}
+
+.support-container {
+	border : solid black 1px;
+	height: 100%;
+}
+
+.support-title {
+	font : 20px  "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.support-title.yes {
+	color: red;
+}
+
+.support-title.no {
+	color: red;
+}
+
+.top {
+	margin-top : 10px;
+	background-color : blue;
+}
+
+.bottom {
+	margin-top : 10px;
+	background-color : red;
+}
+
+.left {
+	float: right;
+}
+
+.stmt-support {
+	background-color : yellow;
+}

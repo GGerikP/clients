@@ -1,0 +1,13 @@
+/* **********************************************************
+ * 
+ * File: default.json
+ * Auth: Gerik Peterson
+ * Desc: Base configuration file for the inventory-store client app
+ * 
+ * **********************************************************/
+
+{
+	"process" : {
+		"port": 8081
+	}
+}
