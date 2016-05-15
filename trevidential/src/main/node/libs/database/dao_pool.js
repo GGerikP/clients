@@ -1,44 +1,55 @@
 /* ******************************************************
 * File: dao.js
 * Auth: Gerik Peterson
-* Desc:
+* Desc: Data Access Object
 *
 * *******************************************************/
-//var express  = require('express');
-//var router   = express.Router();
-var mysql    = require('promise-mysql');
-var dao      = function(){};
+var mysql    = require('mysql');
+var Promise  = require('bluebird');
+
+var dao      = {};
 
 var pool = mysql.createPool({
-			connectionLimit : 100, //important
-			host     : 'localhost',
-			user     : 'root',
-			password : 'W9cked12',
-			database : 'trevidential',
-			debug    :  false
-	});
+		connectionLimit : 100, //important
+		host     : 'localhost',
+		user     : 'root',
+		password : 'W9cked12',
+		database : 'trevidential',
+		debug    :  false
+});
 
-dao.handle_connection = function (req,res) {
 
-	var fn = "dao.handle_connection";
-	console.log(fn + " running with req.query = " + req.query);
+dao.queryDB = function(req,res) {
 
-	pool.getConnection().then(function(connection) {
+	console.log("Running queryDB.");
 
-		console.log('connected as id ' + connection.threadId);
+	return new Promise(function (resolve,reject) {
+		pool.getConnection(function(err,connection) {
+			if(err) {
+				console.log("The connection failed!! " + err);
+			} else {
+				console.log("We got a connection! : " + connection.threadId);
+			}
+			console.log("What do we have here!?!?");
+//			connection.release();
+//			return connection;
 
-		connection.query(req.query).then(function(rows){
+			connection.on('error', function(err) {
+				console.log(err);
+				reject(err);
+			});
 
-			console.log("Inside " + fn + " : rows = " + rows);
-//			res.rows = rows;
-			connection.release();
-
-		}).catch(function(err) {
-
-			console.log("Returning: Error in connection database.");
-			res.rows = {"code" : 100, "status" : "Error in connection database: " + err};
-//			done(err);
-
+			connection.query(req.query,function(err,rows){
+				connection.release();
+				if(err) {
+					console.log("It all went to hell! " + err);
+					reject(err);
+				} else {
+					res.rows = rows;
+					console.log("We got records! " + rows);
+					resolve(rows);
+				}
+			});
 		});
 	});
 }
