@@ -1,1 +1,5 @@
 Hello world!
+Adding some text.
+This is more text on the master branch.
+This is totes. lame-o.
+Sherry smells like toothpaste.
