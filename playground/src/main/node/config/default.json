@@ -1,0 +1,27 @@
+/* **********************************************************
+ *
+ * File: default.json
+ * Auth: Gerik Peterson
+ * Desc: Generic Base Configuration File
+ *
+ * **********************************************************/
+
+{
+        "process" : {
+                "port": 3000
+        }
+/*        ,"db" : {
+                "mongo" : {
+                        "host" : "localhost",
+                        "port" : "27017",
+                        "dbname" : "database"
+                }
+		,"mysql" : {
+			 "host"     : "localhost"
+			,"port"     : "3306"
+			,"user"     : "user"
+			,"password" : "password"
+        }
+*/
+}
+
