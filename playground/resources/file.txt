@@ -1,6 +1,7 @@
 Hello world!
 Adding some text.
 This is more text on the master branch.
-This is totes. lame-o.
+This is totes: AWESOME-O.
 Now, Sherry smells like mowser kitty.
 (Can we TRUST HIM?!?!?!?)
+Additional changes.
